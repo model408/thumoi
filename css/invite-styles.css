@@ -1808,7 +1808,7 @@ form.reg_form .col-md-3 .single_input {
 }
 .edit_video--icon img {
     object-fit: cover;
-    width: 58px;
+    width: 50px;
 }
 .show-edit_video.edit_video{
     display: flex;
@@ -1858,4 +1858,7 @@ form.reg_form .col-md-3 .single_input {
 legend {
     font-size: 14px;
     padding:0 6px 8px;
+}
+.schedule_link a{
+    color:#fff;
 }

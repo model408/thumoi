@@ -1517,13 +1517,10 @@ $('.single-schedule').each(item => {
     })
 })
 
-// $(document).on('click','.edit-icon',function(e) {
-//     $(this).prev().css('display','flex')
-// })
+
 $('.edit-icon').each(function(id) {
     $(this).on('click',function(e) {
         $(this).parent().prev().toggleClass('show-edit_video')
-        console.log($(this));
     })
 })
 
