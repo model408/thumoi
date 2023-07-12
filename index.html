@@ -1,0 +1,882 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomas Invitation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="/css/invite-styles.css?v=ZOJmllsHfX0bE4JRqHjJCkewV2F9pS1r0gwtjUtxq8c" rel="stylesheet"/>
+</head>
+<body>
+		<div class="login">
+			<div class="modal-content">
+				<span class="close-button">&times;</span>
+				<h2>Đăng nhập trang chỉnh sửa</h2>
+				<div class="left">
+					<label for="#secret-phrase">Nhập mã bảo mật</label>
+					<input id="input-login" type="text" placeholder="Mã bảo mật" />
+				</div>
+				<div class="modal-footer">
+					<button class="login-button">Đăng nhập</button>
+				</div>
+			</div>
+		</div>
+                <div class="checkbox-container">
+                    <input class="checkbox-content"  type="checkbox" id="home_check"
+						   name="home-checkbox" value="home">
+					<label class="label-content" for="#home_check">Ẩn phần này</label>
+                </div>
+<header id="home">
+			<div class="home_area">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="home_content text-center">
+								<h1 id="invite-heading" class="">🎯 LAO ĐỘNG TRẠI HÈ &amp; DU HỌC NGHỀ CHLB ĐỨC, THÁNG 3/2024!</h1>
+								<div class="edit-input sols-edit" id="invite-heading-edit" style="display: none;">
+									<input type="text" id="invite-heading-input" placeholder="Tên thư mời">
+									<button class="save-btn" id="invite-heading-save">X</button>
+								</div>
+								<div id="home-date">
+									<h5 id="time" class="">Tư vấn: Sáng 8:30-10:30.</h5>
+									<div class="edit-input" id="time-edit" style="margin-top: 10px; display: none;">
+										<input style="width:60%" type="text" id="time-input" placeholder="Thời gian tổ chức">
+										<button class="save-btn" id="time-save">X</button>
+									</div>
+									<hr>
+									<h5 id="date" class="">CÁC NGÀY TRONG TUẦN</h5>
+									<div class="edit-input" id="date-edit" style="display: none;">
+										<input style="width:60%" type="text" id="date-input" placeholder="Ngày tổ chức">
+										<button class="save-btn" id="date-save">X</button>
+									</div>
+								</div>
+
+								<div class="home_text">
+									<p id="home-text">
+										Địa chỉ: 250 Đặng Xuân Bảng, Nam Vân, Thành Phố Nam Định.
+									</p>
+								</div>
+								<div class="edit-input" id="home-text-edit">
+									<input type="text" id="home-text-input" placeholder="Nội dung thư mời">
+									<button class="save-btn" id="home-text-save">X</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="business-container">
+				<div class="edit-input" id="link-bl-edit" style="display: flex;">
+					<input type="text" id="link-bl-input" placeholder="Cập nhật link website" style="width: 140px;">
+					<button class="save-btn" id="link-bl-save">X</button>
+				</div>
+				<div class="business-logo">
+					<a id="bl-link" href="https://vietnam.diplo.de/vn-de" target="_blank" rel="noreferrer noopener">
+						<img id="business-logo" src="/invite/minhquan1983/home/F7FCF0B9-192C-4C9E-9E0C-C8C278DC0CF9.jpeg" alt="Logo doanh nghiệp" class="">
+						<div class="edit-input" id="business-logo-edit" style="display: none;">
+							<input type="file" id="business-logo-input" placeholder="Logo doanh nghiệp">
+						</div>
+					</a>
+				</div>
+			</div>
+		</header>                <div class="checkbox-container">
+                    <input class="checkbox-content"  type="checkbox" id="schedule_check"
+						   name="schedule-checkbox" value="schedule">
+					<label class="label-content" for="#schedule_check">Ẩn phần này</label>
+                </div>
+<section class="schedule_area section_padding" id="schedule" style="">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="section_title">
+							<h1 id="invite-topic" class="">💫🏆💫 ỨNG DỤNG CÔNG NGHỆ TRONG ĐÀO TẠO &amp; HỌC TIẾNG ĐỨC CHỈ 3-6 THÁNG, GIAO TIẾP TRÔI CHẢY &amp; 100% CÓ VISA 🌈</h1>
+							<div class="edit-input" id="invite-topic-edit" style="display: none;">
+								<input type="text" id="invite-topic-input" placeholder="Chủ đề buổi gặp mặt">
+								<button class="save-btn" id="invite-topic-save">X</button>
+							</div>
+							<p id="topic-text" class="">💥 Bạn muốn du học nghề &amp; định ở Đức ⁉️</p>
+							<div class="edit-input" id="topic-text-edit" style="display: none;">
+								<input type="text" id="topic-text-input" placeholder="Nội dung chủ đề">
+								<button class="save-btn" id="topic-text-save">X</button>
+							</div>
+							<div class="section_bar"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row tab-content justify-content-center">
+					<div class="col-md-3 schedule_col col-sm-4 col-xs-6">
+						<div class="single_schedule bdt">
+							<div class="schedule_img">
+                                    <img class="speaker-avt" id="avt-speaker-1" src="/invite/minhquan1983/schedule/36E7C793-B5D5-416A-ABFE-9B9E7DBBE957.jpeg">
+								<!-- AVATAR SPEAKER 1 -->
+								<div class="edit-input" id="avt-speaker-1-edit" style="display: none;">
+									<input class="speaker-avt-input" id="avt-speaker-1-input" type="file" placeholder="Chân dung 1">
+								</div>
+							</div>
+							<div class="schedule_foot">
+								<p class="speaker_name" id="speaker-name-1">Nguyễn Minh Quân</p>
+								<div class="edit-input" id="speaker-name-1-edit" style="display: none;">
+									<input class="speaker-avt-input" id="speaker-name-1-input" type="text" placeholder="Tên người 1">
+									<button class="save-btn" id="speaker-name-1-save">X</button>
+								</div>
+								<p class="speaker_pos" id="speaker-pos-1">Ceo VDB</p>
+								<div class="edit-input" id="speaker-pos-1-edit" style="display: none;">
+									<input class="speaker-avt-input" id="speaker-pos-1-input" type="text" placeholder="Chúc danh người 1">
+									<button class="save-btn" id="speaker-pos-1-save">X</button>
+								</div>
+							</div>
+							<div class="schedule_link">
+								<a href="#" target="_blank">Xem feedback</a>
+							</div>
+							<div class="edit_video">
+								<div class="ytb">
+									<label>Cập nhật link:</label>
+									<div class="ytb-input">
+										<input type="text" class="upd-ytb" placeholder="Link video:">
+										<button class="close-link">X</button>
+									</div>
+								</div>
+								<div class="vid">
+									<label>Tải lên video</label>
+									<input type="file" class="upd-video">
+								</div>
+							</div>
+                            <div class="edit_video--icon">
+                                <img class="edit-icon" src="invite/common/edit-feedback.png"/>
+                            </div>
+                            
+						</div>
+						<div class="video-popup" style="display: none;">
+							<div class="video-container">
+								<div class="popup-heading">
+									<p class="popup-title">Feedback khách hàng</p>
+								</div>
+								<video width="320" height="240" controls="">
+									<source src="" type="video/mp4">
+								</video>
+								<img id="close-popup" class="close-popup" src="/invite/common/black-close.png" alt="close-btn">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 schedule_col col-sm-4 col-xs-6">
+						<div class="single_schedule">
+							<div class="schedule_img">
+                                    <img class="speaker-avt" id="avt-speaker-2" src="/invite/minhquan1983/schedule/4E79F71E-FDD4-4E59-90B0-DCF273D979F7.jpeg">
+								<!-- AVATAR SPEAKER 2 -->
+								<div class="edit-input" id="avt-speaker-2-edit" style="display: none;">
+									<input class="speaker-avt-input" type="file" id="avt-speaker-2-input" placeholder="Chân dung 2">
+								</div>
+							</div>
+							<div class="schedule_foot">
+								<p class="speaker_name" id="speaker-name-2">LÊ MẠNH HÙNG</p>
+								<div class="edit-input" id="speaker-name-2-edit" style="display: none;">
+									<input type="text" id="speaker-name-2-input" placeholder="Tên người 2">
+									<button class="save-btn" id="speaker-name-2-save">X</button>
+								</div>
+								<p class="speaker_pos" id="speaker-pos-2">Cố vấn lãnh đạo</p>
+								<div class="edit-input" id="speaker-pos-2-edit">
+									<input type="text" id="speaker-pos-2-input" placeholder="Chúc danh người 2">
+									<button class="save-btn" id="speaker-pos-2-save">X</button>
+								</div>
+							</div>
+							<div class="schedule_link">
+								<a href="#">Xem feedback</a>
+							</div>
+							<div class="edit_video">
+								<div class="ytb">
+									<label>Cập nhật link:</label>
+									<div class="ytb-input">
+										<input type="text" class="upd-ytb" placeholder="Link video:">
+										<button class="close-link">X</button>
+									</div>
+								</div>
+								<div class="vid">
+									<label>Tải lên video</label>
+									<input type="file" class="upd-video">
+								</div>
+							</div>
+                            <div class="edit_video--icon">
+                                <img class="edit-icon" src="invite/common/edit-feedback.png"/>
+                            </div>
+                            
+						</div>
+						<div class="video-popup" style="display: none;">
+							<div class="video-container">
+								<div class="popup-heading">
+									<p class="popup-title">Feedback khách hàng</p>
+								</div>
+								<video width="320" height="240" controls="">
+									<source src="" type="video/mp4">
+								</video>
+								<img id="close-popup" class="close-popup" src="/invite/common/black-close.png" alt="close-btn">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 schedule_col col-sm-4 col-xs-6">
+						<div class="single_schedule">
+							<div class="schedule_img">
+								<img class="speaker-avt" id="avt-speaker-3" src="/invite/minhquan1983/schedule/9208EB0F-9565-4867-A634-F769CCEA62E4.jpeg">
+								<!-- AVATAR SPEAKER 3 -->
+								<div class="edit-input" id="avt-speaker-3-edit" style="display: none;">
+									<input class="speaker-avt-input" type="file" id="avt-speaker-3-input" placeholder="Chân dung 3">
+								</div>
+							</div>
+							<div class="schedule_foot">
+								<p class="speaker_name" id="speaker-name-3">Dr. SƠN THU VDBrücke</p>
+								<div class="edit-input" id="speaker-name-3-edit" style="display: none;">
+									<input type="text" id="speaker-name-3-input" placeholder="Tên người 3">
+									<button class="save-btn" id="speaker-name-3-save">X</button>
+								</div>
+								<p class="speaker_pos" id="speaker-pos-3">Cố vấn lãnh đạo</p>
+								<div class="edit-input" id="speaker-pos-3-edit">
+									<input type="text" id="speaker-pos-3-input" placeholder="Chúc danh người 3">
+									<button class="save-btn" id="speaker-pos-3-save">X</button>
+								</div>
+							</div>
+							<div class="schedule_link">
+								<a href="#">Xem feedback</a>
+							</div>
+							<div class="edit_video">
+								<div class="ytb">
+									<label>Cập nhật link:</label>
+									<div class="ytb-input">
+										<input type="text" class="upd-ytb" placeholder="Link video:">
+										<button class="close-link">X</button>
+									</div>
+								</div>
+								<div class="vid">
+									<label>Tải lên video</label>
+									<input type="file" class="upd-video">
+								</div>
+							</div>
+                            <div class="edit_video--icon">
+                                <img class="edit-icon" src="invite/common/edit-feedback.png"/>
+                            </div>
+                            
+						</div>
+						<div class="video-popup" style="display: none;">
+							<div class="video-container">
+								<div class="popup-heading">
+									<p class="popup-title">Feedback khách hàng</p>
+								</div>
+								<video width="320" height="240" controls="">
+									<source src="" type="video/mp4">
+								</video>
+								<img id="close-popup" class="close-popup" src="/invite/common/black-close.png" alt="close-btn">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 schedule_col col-sm-4 col-xs-6">
+						<div class="single_schedule bdb">
+							<div class="schedule_img">
+                                    <img class="speaker-avt" id="avt-speaker-4" src="/invite/minhquan1983/schedule/194C619E-03A1-4317-822B-3DB5C371B777.jpeg">
+								<!-- AVATAR SPEAKER 4 -->
+								<div class="edit-input" id="avt-speaker-4-edit" style="display: none;">
+									<input class="speaker-avt-input" type="file" id="avt-speaker-4-input" placeholder="Chân dung 4">
+								</div>
+							</div>
+							<div class="schedule_foot">
+								<p class="speaker_name" id="speaker-name-4">TRẦN VĂN TRUYỀN</p>
+								<div class="edit-input" id="speaker-name-4-edit" style="display: none;">
+									<input type="text" id="speaker-name-4-input" placeholder="Tên người 4">
+									<button class="save-btn" id="speaker-name-4-save">X</button>
+								</div>
+								<p class="speaker_pos" id="speaker-pos-4">Cố vấn lãnh đạo</p>
+								<div class="edit-input" id="speaker-pos-4-edit">
+									<input type="text" id="speaker-pos-4-input" placeholder="Chúc danh người 4">
+									<button class="save-btn" id="speaker-pos-4-save">X</button>
+								</div>
+							</div>
+							<div class="schedule_link">
+								<a href="#">Xem feedback</a>
+							</div>
+							<div class="edit_video">
+								<div class="ytb">
+									<label>Cập nhật link:</label>
+									<div class="ytb-input">
+										<input type="text" class="upd-ytb" placeholder="Link video:">
+										<button class="close-link">X</button>
+									</div>
+								</div>
+								<div class="vid">
+									<label>Tải lên video</label>
+									<input type="file" class="upd-video">
+								</div>
+							</div>
+                            <div class="edit_video--icon">
+                                <img class="edit-icon" src="invite/common/edit-feedback.png"/>
+                            </div>
+                            
+						</div>
+						<div class="video-popup" style="display: none;">
+							<div class="video-container">
+								<div class="popup-heading">
+									<p class="popup-title">Feedback khách hàng</p>
+								</div>
+								<video width="320" height="240" controls="">
+									<source src="" type="video/mp4">
+								</video>
+								<img id="close-popup" class="close-popup" src="/invite/common/black-close.png" alt="close-btn">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>                <div class="checkbox-container">
+                    <input class="checkbox-content" checked type="checkbox" id="subscribe_check"
+						   name="subscribe-checkbox" value="subscribe">
+					<label class="label-content" for="#subscribe_check">Ẩn phần này</label>
+                </div>
+<section class="subscribe_area" id="subscribe" style="display: none;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+						<div id="mc_embed_signup">
+							<div name="mc-embedded-subscribe-form" class="validate subscribe clearfix" target="_blank" novalidate="">
+								<h1 id="ads-heading" class="d-none">Đừng bỏ lỡ sự kiện</h1>
+								<div class="edit-input sols-edit" id="ads-heading-edit" style="display: flex;">
+									<input type="text" id="ads-heading-input" placeholder="Promotion heading">
+									<button class="save-btn" id="ads-heading-save">X</button>
+								</div>
+								<p id="ad-content" class="d-none">Đăng kí ngay hôm nay</p>
+								<div class="edit-input sols-edit" id="ad-content-edit" style="display: flex;">
+									<input type="text" id="ad-content-input" placeholder="Promotion text">
+									<button class="save-btn" id="ad-content-save">X</button>
+								</div>
+								<a href="#reg" class="to-reg-btn d-none" id="to-reg-btn">click here</a>
+								<div class="edit-input" id="to-reg-btn-edit" style="display: flex;">
+									<input type="text" id="to-reg-btn-input" placeholder="Nút tới phần đăng kí">
+									<button class="save-btn" id="to-reg-btn-save">X</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>                <div class="checkbox-container">
+                    <input class="checkbox-content" checked type="checkbox" id="speaker_check"
+						   name="speaker-checkbox" value="speaker">
+					<label class="label-content" for="#speaker_check">Ẩn phần này</label>
+                </div>
+<section class="speaker_area section_padding" id="speaker" style="display: none;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="section_title">
+							<h1 id="partner-heading" class="">CƠ HỘI DÀNH CHO CÁC ỨNG VIÊN?</h1>
+							<div class="edit-input sols-edit" id="partner-heading-edit" style="display: none;">
+								<input type="text" id="partner-heading-input" placeholder="Tiêu đề phần đối tác">
+								<button class="save-btn" id="partner-heading-save">X</button>
+							</div>
+							<p id="partner-text">Cùng hợp tác &amp; phát triển.</p>
+							<div class="edit-input sols-edit" id="partner-text-edit">
+								<input type="text" id="partner-text-input" placeholder="Nội dung phần đối tác">
+								<button class="save-btn" id="partner-text-save">X</button>
+							</div>
+							<div class="section_bar"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="speaker_slider owl-carousel owl-theme owl-loaded owl-drag owl-hidden">
+							<div class="owl-stage-outer">
+								<div class="owl-stage" style="width: 240px; transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
+									<div class="owl-item active" style="width: 0px; margin-right: 80px;">
+										<figure>
+											<div class="figbg">
+												<img class="partner-avt" id="avt-partner-1" src="/invite/1.quan1983.vn/speaker/partner-1.jpg" alt="partner1">
+												<!-- AVATAR PARTNER 1 -->
+												<div class="edit-input" id="avt-partner-1-edit" style="display: none;">
+													<input class="partner-avt-input" type="file" id="avt-partner-1-input" placeholder="Ảnh đối tác 1">
+												</div>
+											</div>
+											<figcaption>
+												<h4 id="partner-name-1" class="">BẠN MUỐN ĐƯỢC SANG ĐỨC ĐÀO TẠO &amp; TẬP HUẤN?</h4>
+												<div class="edit-input sols-edit" id="partner-name-1-edit" style="display: none;">
+													<input type="text" id="partner-name-1-input" placeholder="Tên đối tác 1">
+													<button class="save-btn" id="partner-name-1-save">X</button>
+												</div>
+												<span id="partner-pos-1" class="">Hãy liên hệ ngay: 0914.248.105</span>
+												<div class="edit-input sols-edit" id="partner-pos-1-edit" style="display: none;">
+													<input type="text" id="partner-pos-1-input" placeholder="Chức danh đối tác 1">
+													<button class="save-btn" id="partner-pos-1-save">X</button>
+												</div>
+											</figcaption>
+										</figure>
+									</div>
+									<div class="owl-item" style="width: 0px; margin-right: 80px;">
+										<figure>
+											<div class="figbg">
+												<img class="partner-avt" id="avt-partner-2" src="/invite/1.quan1983.vn/speaker/partner-2.jpg" alt="partner2">
+												<!-- AVATAR PARTNER 2 -->
+												<div class="edit-input" id="avt-partner-2-edit" style="display: none;">
+													<input class="partner-avt-input" type="file" id="avt-partner-2-input" placeholder="Ảnh đối tác 2">
+												</div>
+											</div>
+											<figcaption>
+												<h4 id="partner-name-2">Các đối tác chiến lược</h4>
+												<div class="edit-input sols-edit" id="partner-name-2-edit">
+													<input type="text" id="partner-name-2-input" placeholder="Tên đối tác 2">
+													<button class="save-btn" id="partner-name-2-save">X</button>
+												</div>
+												<span id="partner-pos-2 sols-edit">Đa ngành nghề</span>
+												<div class="edit-input" id="partner-pos-2-edit">
+													<input type="text" id="partner-pos-2-input" placeholder="Chức danh đối tác 2">
+													<button class="save-btn" id="partner-pos-2-save">X</button>
+												</div>
+											</figcaption>
+										</figure>
+									</div>
+									<div class="owl-item" style="width: 0px; margin-right: 80px;">
+										<figure>
+											<div class="figbg">
+												<img class="partner-avt" id="avt-partner-3" src="/invite/1.quan1983.vn/speaker/partner-3.jpg" alt="partner3">
+												<!-- AVATAR PARTNER 3 -->
+												<div class="edit-input" id="avt-partner-3-edit" style="display: none;">
+													<input class="partner-avt-input" type="file" id="avt-partner-3-input" placeholder="Ảnh đối tác 3">
+												</div>
+											</div>
+											<figcaption>
+												<h4 id="partner-name-3">Các đối tác chiến lược</h4>
+												<div class="edit-input sols-edit" id="partner-name-3-edit">
+													<input type="text" id="partner-name-3-input" placeholder="Tên đối tác 3">
+													<button class="save-btn" id="partner-name-3-save">X</button>
+												</div>
+												<span id="partner-pos-3">Đa ngành nghề</span>
+												<div class="edit-input sols-edit" id="partner-pos-3-edit">
+													<input type="text" id="partner-pos-3-input" placeholder="Chức danh đối tác 3">
+													<button class="save-btn" id="partner-pos-3-save">X</button>
+												</div>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
+							</div>
+							<div class="owl-nav">
+								<div class="owl-prev">
+								</div>
+								<div class="owl-next">
+								</div>
+							</div>
+						<div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div></div>
+					</div>
+				</div>
+
+			</div>
+		</section>                <div class="checkbox-container">
+                    <input class="checkbox-content"  type="checkbox" id="testimonial_check"
+						   name="testimonial-checkbox" value="testimonial">
+					<label class="label-content" for="#testimonial_check">Ẩn phần này</label>
+                </div>
+<section class="testimonial_area" id="testimonial" style="">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 col-sm-10 col-sm-offset-1">
+						<div class="testimonial_slider owl-carousel owl-theme owl-loaded owl-drag">
+							<div class="owl-stage-outer">
+								<div class="owl-stage" style="width: 290px; transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
+									<div class="owl-item active" style="width: 270px; margin-right: 20px;">
+										<div class="single_testimonial clearfix">
+											<div class="testimonial_img">
+												<img id="avt-testimonial-1" src="/invite/minhquan1983/testimonial/97491780-B992-4E58-8E52-5C3D92BC1134.jpeg" alt="Ảnh 1" class="">
+												<!-- AVATAR PARTNER 1 -->
+												<div class="edit-input" id="avt-testimonial-1-edit" style="display: none;">
+													<input type="file" id="avt-testimonial-1-input" placeholder="Ảnh cảm nghĩ 1">
+												</div>
+											</div>
+											<div class="testimonial_right clearfix">
+												<p id="testimonial-text-1" class="">“ Deutschland und Vietnam verbindet eine langjährige freundschaftliche und intensive Partnerschaft.” 👍</p>
+												<div class="edit-input" id="testimonial-text-1-edit" style="display: none;">
+													<input type="text" id="testimonial-text-1-input" placeholder="Nhập cảm nghĩ 1">
+													<button class="save-btn" id="testimonial-text-1-save">X</button>
+												</div>
+												<div class="testimonial_bottom">
+													<p id="testimonial-name-1" class="">Botschafter Dr. Guido Hildner</p>
+													<div class="edit-input" id="testimonial-name-1-edit" style="display: none;">
+														<input type="text" id="testimonial-name-1-input" placeholder="Tên người phát biểu 1">
+														<button class="save-btn" id="testimonial-name-1-save">X</button>
+													</div>
+													<p id="testimonial-pos-1" class="">❣️❣️❣️</p>
+													<div class="edit-input" id="testimonial-pos-1-edit" style="display: none;">
+														<input type="text" id="testimonial-pos-1-input" placeholder="Tên người phát biểu 1">
+														<button class="save-btn" id="testimonial-pos-1-save">X</button>
+													</div>
+												</div>
+											</div>
+											<div class="personal-logo">
+												<img id="personal-logo" src="/invite/minhquan1983/testimotional/C0CCFA75-BA79-426C-B709-D62AEFFC08D3.jpeg" alt="Logo thương hiệu" class="">
+												<div class="edit-input" id="personal-logo-edit" style="display: none;">
+													<input type="file" id="personal-logo-input" placeholder="Ảnh cảm nghĩ 1">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="owl-nav">
+									<div class="owl-prev custom-owl-prev">
+								</div>
+									<div class="owl-next custom-owl-next">
+								</div>
+							</div>
+						<div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fas fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fas fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div></div>
+					</div>
+				</div>
+			</div>
+		</section>                <div class="checkbox-container">
+                    <input class="checkbox-content" checked type="checkbox" id="reg_check"
+						   name="reg-checkbox" value="reg">
+					<label class="label-content" for="#reg_check">Ẩn phần này</label>
+                </div>
+<section class="reg_area" id="reg" style="display: none;">
+			<div class="outer_container">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="reg_title">
+								<h3 id="reg-heading">Vui lòng điền thông tin</h3>
+								<div class="edit-input" id="reg-heading-edit">
+									<input type="text" id="reg-heading-input" placeholder="Tên form đăng kí">
+									<button class="save-btn" id="reg-heading-save">X</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<form action="#" class="reg_form" id="reg_form">
+							<div class="col-lg-4 col-md-3 col-sm-4" style="margin-bottom:30px">
+								<div class="single_input bdt">
+									<img src="/invite/common/red-user.png" alt="Username Icon">
+									<input id="name" class="bdt personal-infor" type="text" placeholder="Họ &amp; tên">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-3 col-sm-4 bdr" style="margin-bottom:30px">
+								<div class="single_input">
+									<img src="/invite/common/red-phone.png" alt="Job Icon">
+									<input id="tel" class="personal-infor" type="text" placeholder="Tel (Zalo, Telegram)">
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-3 col-sm-4" style="margin-bottom:30px">
+								<div class="single_input bdb">
+									<img src="/invite/common/red-job.png" alt="Job Icon">
+										<input id="email" class="bdb personal-infor" type="email" placeholder="Lĩnh vực (Chuyên môn)">
+								</div>
+							</div>
+                            <div class="checkbox-container" >
+                                <input class="checkbox-content" type="checkbox" id="quest-1-container_check" name="map-checkbox" value="map">
+                                <label class="label-content" for="#quest-1-container_check">Ẩn phần này</label>
+                            </div>
+							<div class="col-lg-6 col-12" id="quest-1-container">
+								<div class="row">
+									<p id="question-1" class="difficulties" style="padding-left:20px;">
+										Những "thách thức" doanh nghiệp đang gặp phải:
+									</p>
+									<div class="edit-input" id="question-1-edit" style="margin: 15px 0px; display: none;">
+										<input type="text" id="question-1-input" placeholder="Câu hỏi 1" style="width:85%">
+										<button class="save-btn" id="question-1-save">X</button>
+									</div>
+									<div class="col-12 text-left" style="padding-left:30px">
+										<input type="checkbox" id="content-quality" name="Những &quot;thách thức&quot; doanh nghiệp đang gặp phải" value="Tiếp cận nguồn vốn.">
+										<label id="dif-1" class="content-label" for="content-quality">
+											Tiếp cận nguồn vốn.
+										</label>
+										<div class="edit-input" id="dif-1-edit">
+											<input class="h-20" type="text" id="dif-1-input" placeholder="Khó khăn của doanh nghiệp">
+											<button class="save-btn" id="dif-1-save">X</button>
+										</div>
+									</div>
+									<div class="col-12 text-left" style="padding-left:30px">
+										<input type="checkbox" id="content-quality" name="Những &quot;thách thức&quot; doanh nghiệp đang gặp phải" value="Tối ưu vận hành &amp; quản lý.">
+										<label id="dif-2" class="content-label" for="content-quality">
+											Tối ưu vận hành &amp; quản lý.
+										</label>
+										<div class="edit-input" id="dif-2-edit">
+											<input class="h-20" type="text" id="dif-2-input" placeholder="Khó khăn của doanh nghiệp">
+											<button class="save-btn" id="dif-2-save">X</button>
+										</div>
+									</div>
+									<div class="col-12 text-left" style="padding-left:30px">
+										<input type="checkbox" id="content-quality" name="Những &quot;thách thức&quot; doanh nghiệp đang gặp phải" value="Marketing sản phẩm &amp; dịch vụ.">
+										<label id="dif-3" class="content-label" for="content-quality">
+											Marketing sản phẩm &amp; dịch vụ.
+										</label>
+										<div class="edit-input" id="dif-3-edit">
+											<input class="h-20" type="text" id="dif-3-input" placeholder="Khó khăn của doanh nghiệp">
+											<button class="save-btn" id="dif-3-save">X</button>
+										</div>
+									</div>
+									<div class="col-12 text-left" style="padding-left:30px">
+										<input type="checkbox" id="content-quality" name="Những &quot;thách thức&quot; doanh nghiệp đang gặp phải" value="Pháp lý &amp; kế toán.">
+										<label id="dif-4" class="content-label" for="content-quality">
+											Pháp lý &amp; kế toán.
+										</label>
+										<div class="edit-input" id="dif-4-edit">
+											<input class="h-20" type="text" id="dif-4-input" placeholder="Khó khăn của doanh nghiệp">
+											<button class="save-btn" id="dif-4-save">X</button>
+										</div>
+									</div>
+									<div class="col-12 text-left" style="padding-left:30px">
+										<input type="checkbox" id="content-quality" name="Những &quot;thách thức&quot; doanh nghiệp đang gặp phải" value="Nguồn khách hàng &amp; đầu ra.">
+										<label id="dif-5" class="content-label" for="content-quality">
+											Nguồn khách hàng &amp; đầu ra.
+										</label>
+										<div class="edit-input" id="dif-5-edit">
+											<input class="h-20" type="text" id="dif-5-input" placeholder="Khó khăn của doanh nghiệp">
+											<button class="save-btn" id="dif-5-save">X</button>
+										</div>
+									</div>
+								</div>
+							</div>
+                            <div class="checkbox-container" >
+                                <input class="checkbox-content" type="checkbox" id="scale-quest-container_check" name="map-checkbox" value="map">
+                                <label class="label-content" for="#scale-quest-container_check">Ẩn phần này</label>
+                            </div>
+							<div class="col-lg-6 col-12" id="scale-quest-container">
+								<fieldset>
+									<legend id="scale-quest">Quy mô doanh nghiệp của bạn:</legend>
+									<div class="edit-input" id="scale-quest-edit">
+										<input class="h-20" type="text" id="scale-quest-input" placeholder="Khó khăn của doanh nghiệp" style="width:100%">
+										<button class="save-btn" id="scale-quest-save">X</button>
+									</div>
+									<row>
+										<div class="col-12 text-left">
+											<input type="radio" name="Quy mô doanh nghiệp của bạn" checked="" id="definitely" value="Dưới 50 nhân sự">
+											<label id="scale-ans-1" class="def-label" for="definitely">
+												Dưới 50 nhân sự
+											</label>
+											<div class="edit-input" id="scale-ans-1-edit">
+												<input class="h-20" type="text" id="scale-ans-1-input" placeholder="Quy mô doanh nghiệp 1">
+												<button class="save-btn" id="scale-ans-1-save">X</button>
+											</div>
+										</div>
+										<div class="col-12 text-left">
+											<input type="radio" name="Quy mô doanh nghiệp của bạn" id="definitely" value="Từ 50-500 nhân sự">
+											<label id="scale-ans-2" class="def-label" for="definitely">
+												Từ 50-500 nhân sự
+											</label>
+											<div class="edit-input" id="scale-ans-2-edit">
+												<input class="h-20" type="text" id="scale-ans-2-input" placeholder="Quy mô doanh nghiệp 2">
+												<button class="save-btn" id="scale-ans-2-save">X</button>
+											</div>
+										</div>
+										<div class="col-12 text-left">
+											<input type="radio" name="Quy mô doanh nghiệp của bạn" id="definitely" value="Trên 500 nhân sự">
+											<label id="scale-ans-3" class="def-label" for="definitely">
+												Trên 500 nhân sự
+											</label>
+											<div class="edit-input" id="scale-ans-3-edit">
+												<input type="text" id="scale-ans-3-input" placeholder="Quy mô doanh nghiệp 3">
+												<button class="save-btn" id="scale-ans-3-save">X</button>
+											</div>
+										</div>
+									</row>
+								</fieldset>
+							</div>
+                            <div class="checkbox-container" >
+                                <input class="checkbox-content"  type="checkbox" id="textarea-quest-container_check" name="map-checkbox" value="map">
+                                <label class="label-content" for="#textarea-quest-container_check">Ẩn phần này</label>
+                            </div>
+							<div class="col-lg-12 col-sm-12 textarea-fb" id="textarea-quest-container">
+								<p id="textarea-quest" class="difficulties">
+									Hãy chia sẻ đôi điều về doanh nghiệp của bạn:
+								</p>
+								<div class="edit-input" id="textarea-quest-edit" style="margin-top:20px;width:100%">
+									<input type="text" id="textarea-quest-input" placeholder="Feedback thêm của doanh nghiệp" style="width: 100%;">
+									<button class="save-btn" id="textarea-quest-save">X</button>
+								</div>
+								<textarea name="Hãy chia sẻ đôi điều về doanh nghiệp của bạn" style="width:100%; height:150px; margin-bottom: 30px; padding:10px" placeholder="Vui lòng nhập địa chỉ website hoặc fanpage doanh nghiệp."></textarea>
+							</div>
+							<div class="col-lg-12 col-12 submit-btn">
+								<div class="single_input">
+									<button id="submit_reg" type="submit">Đăng kí ngay</button>
+								</div>
+							</div>
+							<div id="noti_register">Vui lòng nhập đầy đủ thông tin</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>                <div class="checkbox-container">
+                    <input class="checkbox-content"  type="checkbox" id="faq_check"
+						   name="faq-checkbox" value="faq">
+					<label class="label-content" for="#faq_check">Ẩn phần này</label>
+                </div>
+<section class="faq_area section_padding" id="faq" style="">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-md-5 col-md-offset-0 col-sm-8 col-sm-offset-2">
+						<div class="faq">
+							<div class="faq_title">
+								<h2 id="benefit-text" class="">🌈 CHÚNG TÔI VDB SẴN SÀNG ĐỒNG HÀNH &amp; HỖ TRỢ HỌC VIÊN VIỆT NAM, ĐẶC BIỆT NAM ĐỊNH:</h2>
+								<div class="edit-input" id="benefit-text-edit" style="display: none;">
+									<input type="text" id="benefit-text-input" placeholder="Tiêu đề giải pháp, dịch vụ" style="width: 100%;">
+									<button class="save-btn" id="benefit-text-save">X</button>
+								</div>
+							</div>
+							<dl class="accordion style2">
+								<div id="sol-1" class="active benefit-item">1. Tư vấn miễn phí 100% chương trình đi Đức.</div>
+								<div class="edit-input" id="sol-1-edit" style="display: none;">
+									<input type="text" id="sol-1-input" placeholder="Giải pháp/dịch vụ 1" style="width: 100%;">
+									<button class="save-btn" id="sol-1-save">X</button>
+								</div>
+
+								<div id="sol-2" class="benefit-item">2. Đào tạo văn hoá &amp; tiếng Đức B1.</div>
+								<div class="edit-input" id="sol-2-edit" style="display: none;">
+									<input type="text" id="sol-2-input" placeholder="Giải pháp/dịch vụ 2" style="width: 100%;">
+									<button class="save-btn" id="sol-2-save">X</button>
+								</div>
+
+								<div id="sol-3" class="benefit-item">3. Cơ hội học &amp; làm việc tại Đức thu nhập cao.</div>
+								<div class="edit-input" id="sol-3-edit" style="display: none;">
+									<input type="text" id="sol-3-input" placeholder="Giải pháp/dịch vụ 3" style="width: 100%;">
+									<button class="save-btn" id="sol-3-save">X</button>
+								</div>
+
+								<div id="sol-4" class="benefit-item">4. Các chính sách ưu đãi hỗ trợ trong tháng 7/2023.</div>
+								<div class="edit-input" id="sol-4-edit" style="display: none;">
+									<input type="text" id="sol-4-input" placeholder="Giải pháp/dịch vụ 4" style="width: 100%;">
+									<button class="save-btn" id="sol-4-save">X</button>
+								</div>
+
+								<div id="sol-5" class="benefit-item">5. Cam kết có Visa 100%.</div>
+								<div class="edit-input" id="sol-5-edit" style="display: none;">
+									<input type="text" id="sol-5-input" placeholder="Giải pháp/dịch vụ 5" style="width: 100%;">
+									<button class="save-btn" id="sol-5-save">X</button>
+								</div>
+
+							</dl>
+						</div>
+					</div>
+					<div class="col-md-5 col-md-offset-2 col-sm-8 col-sm-offset-2">
+						<div class="sponsor_title">
+							<h2 id="imgs-title" class="">NHỊP CẦU VIỆT ĐỨC 🌈</h2>
+							<div class="edit-input sols-edit" id="imgs-title-edit" style="margin-top: 20px; width: 100%; display: none;">
+								<input type="text" id="imgs-title-input" placeholder="Giải pháp/dịch vụ 5" style="width: 100%;">
+								<button class="save-btn" id="imgs-title-save">X</button>
+							</div>
+						</div>
+						<div class="sponsor">
+							<div class="row">
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="single_sponsor">
+											<img class="community-img" id="img-data-1" src="/invite/minhquan1983/faq/CFEEE3B2-B8A8-4956-B653-9C674C251AF4.jpeg">
+										<div class="edit-input d-none" id="img-data-1-edit" style="display: flex;">
+											<input class="img-data-input" type="file" id="img-data-1-input" placeholder="Ảnh tư liệu 1">
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="single_sponsor">
+                                            <img class="community-img" id="img-data-2" src="/invite/minhquan1983/faq/95FF2163-A997-4967-AFA1-4E1E05C12B79.jpeg">
+										<div class="edit-input d-none" id="img-data-2-edit" style="display: flex;">
+											<input class="img-data-input" type="file" id="img-data-2-input" placeholder="Ảnh tư liệu 2">
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="single_sponsor">
+                                            <img class="community-img" id="img-data-3" src="/invite/minhquan1983/faq/4B244FD9-EDF7-4CCE-9A0C-5980803A5CC8.jpeg">
+										<div class="edit-input d-none" id="img-data-3-edit" style="display: flex;">
+											<input class="img-data-input" type="file" id="img-data-3-input" placeholder="Ảnh tư liệu 3">
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="single_sponsor">
+                                            <img class="community-img" id="img-data-4" src="/invite/minhquan1983/faq/C57EB043-5466-4FCB-A690-6EA407D76008.png">
+										<div class="edit-input" id="img-data-4-edit" style="display: flex;">
+											<input class="img-data-input" type="file" id="img-data-4-input" placeholder="Ảnh tư liệu 4">
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="single_sponsor">
+                                            <img class="community-img" id="img-data-5" src="/invite/minhquan1983/faq/3E3A36A0-2CEE-4BAB-930E-D961F5F34782.jpeg">
+										<div class="edit-input" id="img-data-5-edit" style="display: flex;">
+											<input class="img-data-input" type="file" id="img-data-5-input" placeholder="Ảnh tư liệu 5">
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="single_sponsor">
+                                            <img class="community-img" id="img-data-6" src="/invite/minhquan1983/faq/F3EF7DAF-B504-4349-910D-D8380FAEF089.jpeg">
+										<div class="edit-input d-none" id="img-data-6-edit" style="display: flex;">
+											<input class="img-data-input" type="file" id="img-data-6-input" placeholder="Ảnh tư liệu 6">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>                <div class="checkbox-container">
+                    <input class="checkbox-content"  type="checkbox" id="map_check"
+						   name="map-checkbox" value="map">
+					<label class="label-content" for="#map_check">Ẩn phần này</label>
+                </div>
+<section class="map_area" id="map" style="">
+			<div id="googleMap">
+				<div class="map-wrapper">
+					<div class="map-container">
+					</div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6515.210978126394!2d106.18764561152116!3d20.411008423765843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135e0c953e3c769%3A0xbf595905a4c052fa!2zMjUwIMSQxrDhu51uZyDEkOG6t25nIFh1w6JuIELhuqNuZywgTmFtIFbDom4sIFRQLiBOYW0gxJDhu4tuaCwgTmFtIMSQ4buLbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1686541028712!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+			<div class="map_content_area">
+				<div class="map_content">
+					<div class="contact_info_top">
+						<h5 id="contact_info" class="">LIÊN HỆ ĐỂ ĐẶT LỊCH TƯ VẤN</h5>
+						<div class="edit-input sols-edit" id="contact_info-edit" style="margin-top: 20px; width: 100%; display: none;">
+							<input type="text" id="contact_info-input" placeholder="Thông tin liên hệ" style="width: 100%;">
+							<button class="save-btn" id="contact_info-save">X</button>
+						</div>
+						<div class="contact_info_left">
+							<div class="contact_icon">
+								<img src="/invite/common/white-location.png" alt="location icon">
+							</div>
+							<p id="info-locale" class="">250 Đặng Xuân Bảng, Nam Định.</p>
+							<div class="edit-input" id="info-locale-edit" style="width: 100%; display: none;">
+								<input type="text" id="info-locale-input" placeholder="Địa chỉ" style="width: 100%;">
+								<button class="save-btn" id="info-locale-save">X</button>
+							</div>
+						</div>
+						<div class="contact_info_left">
+							<div class="contact_icon">
+								<img src="/invite/common/white-email.png" alt="location icon">
+							</div>
+							<p id="info-email" class="">Nguyễn Minh Quân</p>
+							<div class="edit-input" id="info-email-edit" style="width: 100%; display: none;">
+								<input type="text" id="info-email-input" placeholder="Địa chỉ" style="width: 100%;">
+								<button class="save-btn" id="info-email-save">X</button>
+							</div>
+						</div>
+						<div class="contact_info_left">
+							<div class="contact_icon">
+								<img src="/invite/common/white-phone.png" alt="location icon">
+							</div>
+							<p id="info-tel" class="">0914.248.105 (Số Zalo)</p>
+							<div class="edit-input" id="info-tel-edit" style="width: 100%; display: none;">
+								<input type="text" id="info-tel-input" placeholder="Địa chỉ" style="width: 100%;">
+								<button class="save-btn" id="info-tel-save">X</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>        <div class="save-change">
+			<div id="saveNoti"></div>
+            <button id="save-change">Lưu thay đổi</button>
+        </div>
+        <input type="hidden" id="account" value="MinhQuan1983" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="/js/invite-index.js?v=OpGJnpfYmB1LWwlDVVWe5t18o9EmQyoCxETCV3tE4t4"></script>
+</body>
+</html>
