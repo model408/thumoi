@@ -1861,4 +1861,6 @@ legend {
 }
 .schedule_link a{
     color:#fff;
+    font-weight: 500;
+    text-decoration: underline;
 }
